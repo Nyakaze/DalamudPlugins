@@ -19,14 +19,7 @@
         "CanUnloadAsync": false,
         "LoadPriority": 0,
         "Punchline": "The ultimate discord plugin",
-        "Changelog": [
-            {
-                "Version": "1.0.0",
-                "Changes": [
-                    "Initial release"
-                ]
-            }
-        ],
+        "Changelog": "- Initial release",
         "IconUrl": "https://raw.githubusercontent.com/Nyakaze/Cordi/refs/heads/main/Images/icon.png",
         "AcceptsFeedback": false,
         "DownloadLinkInstall": "https://github.com/Nyakaze/Cordi/releases/download/1.0.0/Cordi.zip",
