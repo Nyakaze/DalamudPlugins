@@ -1,36 +1,34 @@
 [
-    {
-        "Author": "Nyakaze",
-        "Name": "Cordi",
-        "InternalName": "Cordi",
-        "AssemblyVersion": "1.1.2",
-        "Description": "Ya ya, I should describe... but why should I",
-        "ApplicableVersion": "any",
-        "Tags": [
-        "cute",
-        "plugin",
-        "made",
-        "by",
-        "Nyakaze"
-        ],
-        "RepoUrl": "https://github.com/Nyakaze/Cordi",
-        "DalamudApiLevel": 14,
-        "LoadRequiredState": 0,
-        "LoadSync": false,
-        "CanUnloadAsync": false,
-        "LoadPriority": 0,
-        "Punchline": "The ultimate discord plugin",
-        "Changelog": "- Added Party & Remember me feature",
-        "IconUrl": "https://raw.githubusercontent.com/Nyakaze/Cordi/main/Images/icon.png",
-        "AcceptsFeedback": false,
-        "DownloadLinkInstall": "https://github.com/Nyakaze/Cordi/releases/download/1.1.2/Cordi.zip",
-        "DownloadLinkTesting": "https://github.com/Nyakaze/Cordi/releases/download/1.1.2/Cordi.zip",
-        "DownloadLinkUpdate": "https://github.com/Nyakaze/Cordi/releases/download/1.1.2/Cordi.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadCount": 0,
-        "LastUpdate": "1770243207"
-
-    }
-    
+  {
+    "Author": "Nyakaze",
+    "Name": "Cordi",
+    "InternalName": "Cordi",
+    "AssemblyVersion": "1.1.3",
+    "Description": "Ya ya, I should describe... but why should I",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "cute",
+      "plugin",
+      "made",
+      "by",
+      "Nyakaze"
+    ],
+    "RepoUrl": "https://github.com/Nyakaze/Cordi",
+    "DalamudApiLevel": 14,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "The ultimate discord plugin",
+    "Changelog": "Update 1.1.3",
+    "IconUrl": "https://raw.githubusercontent.com/Nyakaze/Cordi/main/Images/icon.png",
+    "AcceptsFeedback": false,
+    "DownloadLinkInstall": "https://github.com/Nyakaze/Cordi/releases/download/1.1.3/Cordi.zip",
+    "DownloadLinkTesting": "https://github.com/Nyakaze/Cordi/releases/download/1.1.3/Cordi.zip",
+    "DownloadLinkUpdate": "https://github.com/Nyakaze/Cordi/releases/download/1.1.3/Cordi.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadCount": 0,
+    "LastUpdate": "1770427619"
+  }
 ]
