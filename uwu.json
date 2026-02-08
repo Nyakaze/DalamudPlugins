@@ -3,7 +3,7 @@
     "Author": "Nyakaze",
     "Name": "Cordi",
     "InternalName": "Cordi",
-    "AssemblyVersion": "1.1.4",
+    "AssemblyVersion": "1.1.5",
     "Description": "Ya ya, I should describe... but why should I",
     "ApplicableVersion": "any",
     "Tags": [
@@ -20,15 +20,15 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "Punchline": "The ultimate discord plugin",
-    "Changelog": "Update 1.1.4",
+    "Changelog": "\n### Discord\n - **Fixed:** Reactions sometimes failing.\n### General\n - **Fixed:** A lot of under the hood changes.\n### UI\n - **Added:** WIP Text to Examine Feature.\n - **Updated:** View of Remembered and Examined People.",
     "IconUrl": "https://raw.githubusercontent.com/Nyakaze/Cordi/main/Images/icon.png",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/Nyakaze/Cordi/releases/download/1.1.4/Cordi.zip",
-    "DownloadLinkTesting": "https://github.com/Nyakaze/Cordi/releases/download/1.1.4/Cordi.zip",
-    "DownloadLinkUpdate": "https://github.com/Nyakaze/Cordi/releases/download/1.1.4/Cordi.zip",
+    "DownloadLinkInstall": "https://github.com/Nyakaze/Cordi/releases/download/1.1.5/Cordi.zip",
+    "DownloadLinkTesting": "https://github.com/Nyakaze/Cordi/releases/download/1.1.5/Cordi.zip",
+    "DownloadLinkUpdate": "https://github.com/Nyakaze/Cordi/releases/download/1.1.5/Cordi.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": "1770434290"
+    "LastUpdate": "1770514741"
   }
 ]
