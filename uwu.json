@@ -3,7 +3,7 @@
     "Author": "Nyakaze",
     "Name": "Cordi",
     "InternalName": "Cordi",
-    "AssemblyVersion": "1.2.0",
+    "AssemblyVersion": "1.2.1",
     "Description": "Ya ya, I should describe... but why should I",
     "ApplicableVersion": "any",
     "Tags": [
@@ -20,15 +20,15 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "Punchline": "The ultimate discord plugin",
-    "Changelog": "\n### Remember Me\n - **Fixed:** Item Icons not showing up in the Examine Tab.\n - **Updated:** Examine Glamour window to look nicer.\n - **Added:** Colors for Glamour Slots\n - **Added:** Try On feature\n### Peeper\n - **Added:** Better default sound when a player is peeping.\n - **Added:** Option to disable Notifications in Combat.\n - **Added:** Option to disable Sounds in Combat.\n - **Fixed:** A bug where the Discord Notification didnt update if the peeper looked away to fast.\n### Chats\n - **Added:** Option to get notified in a different Channel when u get a tell.\n### Party\n - **Fixed:** A bug where an Error was thrown, when a player had no Logs.",
+    "Changelog": "\n### Party\n - **Fixed:** A bug where Cross Realm Parties were not working in Party Track Feature.\n - **Added:** A Summary of the Party when the Party fills.",
     "IconUrl": "https://raw.githubusercontent.com/Nyakaze/Cordi/main/Images/icon.png",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/Nyakaze/Cordi/releases/download/1.2.0/Cordi.zip",
-    "DownloadLinkTesting": "https://github.com/Nyakaze/Cordi/releases/download/1.2.0/Cordi.zip",
-    "DownloadLinkUpdate": "https://github.com/Nyakaze/Cordi/releases/download/1.2.0/Cordi.zip",
+    "DownloadLinkInstall": "https://github.com/Nyakaze/Cordi/releases/download/1.2.1/Cordi.zip",
+    "DownloadLinkTesting": "https://github.com/Nyakaze/Cordi/releases/download/1.2.1/Cordi.zip",
+    "DownloadLinkUpdate": "https://github.com/Nyakaze/Cordi/releases/download/1.2.1/Cordi.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": "1770611676"
+    "LastUpdate": "1770837333"
   }
 ]
