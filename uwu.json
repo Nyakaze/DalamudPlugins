@@ -3,7 +3,7 @@
     "Author": "Nyakaze",
     "Name": "Cordi",
     "InternalName": "Cordi",
-    "AssemblyVersion": "2.0.3",
+    "AssemblyVersion": "2.0.4",
     "Description": "Ya ya, I should describe... but why should I",
     "ApplicableVersion": "any",
     "Tags": [
@@ -20,15 +20,15 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "Punchline": "The ultimate discord plugin",
-    "Changelog": "Update 2.0.3",
+    "Changelog": "\n### Activitys\n - **Updated:** Time related placeholders now update title correctly\n - **Changed:** Recognition of Activitys to be more accurate.\n\n### Log Tab\n - **Added:** Log Tab to see Plugin Logs. Visible when pressed Ctrl + Shift + L while Cordi window is selected.",
     "IconUrl": "https://raw.githubusercontent.com/Nyakaze/Cordi/main/Images/icon.png",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/Nyakaze/Cordi/releases/download/2.0.3/Cordi.zip",
-    "DownloadLinkTesting": "https://github.com/Nyakaze/Cordi/releases/download/2.0.3/Cordi.zip",
-    "DownloadLinkUpdate": "https://github.com/Nyakaze/Cordi/releases/download/2.0.3/Cordi.zip",
+    "DownloadLinkInstall": "https://github.com/Nyakaze/Cordi/releases/download/2.0.4/Cordi.zip",
+    "DownloadLinkTesting": "https://github.com/Nyakaze/Cordi/releases/download/2.0.4/Cordi.zip",
+    "DownloadLinkUpdate": "https://github.com/Nyakaze/Cordi/releases/download/2.0.4/Cordi.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": "1773637283"
+    "LastUpdate": "1776373207"
   }
 ]
