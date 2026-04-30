@@ -30,37 +30,5 @@
     "IsTestingExclusive": false,
     "DownloadCount": 0,
     "LastUpdate": "1777492940"
-  },
-  {
-    "Author": "Nyakaze",
-    "Name": "Docki",
-    "InternalName": "Docki",
-    "AssemblyVersion": "0.0.1",
-    "Description": "Ya ya, I should describe... but why should I",
-    "ApplicableVersion": "any",
-    "Tags": [
-      "cute",
-      "plugin",
-      "made",
-      "by",
-      "Nyakaze"
-    ],
-    "RepoUrl": "https://github.com/Nyakaze/Docki",
-    "DalamudApiLevel": 15,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "CanUnloadAsync": false,
-    "LoadPriority": 0,
-    "Punchline": "The ultimate hotbar plugin",
-    "Changelog": "",
-    "IconUrl": "https://raw.githubusercontent.com/Nyakaze/Cordi/main/Images/icon.png",
-    "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/Nyakaze/Docki/releases/download/0.0.1/Docki.zip",
-    "DownloadLinkTesting": "https://github.com/Nyakaze/Docki/releases/download/0.0.1/Docki.zip",
-    "DownloadLinkUpdate": "https://github.com/Nyakaze/Docki/releases/download/0.0.1/Docki.zip",
-    "IsHide": false,
-    "IsTestingExclusive": false,
-    "DownloadCount": 0,
-    "LastUpdate": "1777492940"
   }
 ]
