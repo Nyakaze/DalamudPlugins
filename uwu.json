@@ -24,11 +24,14 @@
     "IconUrl": "https://raw.githubusercontent.com/Nyakaze/Cordi/main/Images/icon.png",
     "AcceptsFeedback": false,
     "DownloadLinkInstall": "https://github.com/Nyakaze/Cordi/releases/download/2.3.0/Cordi.zip",
-    "DownloadLinkTesting": "https://github.com/Nyakaze/Cordi/releases/download/2.3.0/Cordi.zip",
+    "DownloadLinkTesting": "https://github.com/Nyakaze/Cordi/releases/download/test-chatbox-v4.2/Cordi.zip",
     "DownloadLinkUpdate": "https://github.com/Nyakaze/Cordi/releases/download/2.3.0/Cordi.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": "1784452949"
+    "LastUpdate": "1784452949",
+    "TestingAssemblyVersion": "3.0.0.3",
+    "TestingDalamudApiLevel": 15,
+    "TestingChangelog": "\n### General\n - **NEW UI:** Completely reworked the UI of Cordi.\n - **Added:** ChatBox Feature\n - **Added:** ChatBox Messanger\n\n### ChatBox\n - **Info:** As its the first automated release and I already said whats in there, im not gonna put all of it here again"
   }
 ]
