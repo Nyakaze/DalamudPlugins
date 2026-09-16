@@ -1,0 +1,87 @@
+name: Update download counts
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-download-counts
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/github-script@v9
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const branch = context.payload.repository.default_branch;
+            const path = "uwu.json";
+
+            const { data: file } = await github.rest.repos.getContent({
+              owner, repo, path, ref: branch
+            });
+            const plugins = JSON.parse(
+              Buffer.from(file.content, "base64").toString("utf8")
+            );
+            if (!Array.isArray(plugins)) {
+              throw new Error("Expected a plugin array");
+            }
+
+            let changed = false;
+            for (const plugin of plugins) {
+              const url = new URL(plugin.DownloadLinkInstall);
+              const match = url.pathname.match(
+                /^\/([^/]+)\/([^/]+)\/releases\/download\/([^/]+)\/([^/]+)$/
+              );
+              if (url.hostname !== "github.com" || !match) {
+                throw new Error(`Unsupported URL: ${url}`);
+              }
+
+              const [, assetOwner, assetRepo, tag, filename] = match;
+              const { data: release } =
+                await github.rest.repos.getReleaseByTag({
+                  owner: assetOwner,
+                  repo: assetRepo,
+                  tag: decodeURIComponent(tag)
+                });
+
+              const assets = await github.paginate(
+                github.rest.repos.listReleaseAssets,
+                {
+                  owner: assetOwner,
+                  repo: assetRepo,
+                  release_id: release.id,
+                  per_page: 100
+                }
+              );
+              const asset = assets.find(
+                a => a.name === decodeURIComponent(filename)
+              );
+              if (!asset || !Number.isSafeInteger(asset.download_count)) {
+                throw new Error(`Missing download count: ${plugin.Name}`);
+              }
+
+              core.info(`${plugin.Name}: ${asset.download_count}`);
+              if (plugin.DownloadCount !== asset.download_count) {
+                plugin.DownloadCount = asset.download_count;
+                changed = true;
+              }
+            }
+
+            if (!changed) return;
+
+            await github.rest.repos.createOrUpdateFileContents({
+              owner, repo, path, branch,
+              sha: file.sha,
+              message: "chore: update download counts",
+              content: Buffer.from(
+                JSON.stringify(plugins, null, 2) + "\n"
+              ).toString("base64")
+            });
