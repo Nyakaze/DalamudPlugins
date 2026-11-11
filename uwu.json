@@ -24,14 +24,14 @@
     "IconUrl": "https://raw.githubusercontent.com/Nyakaze/Cordi/main/Images/icon.png",
     "AcceptsFeedback": false,
     "DownloadLinkInstall": "https://github.com/Nyakaze/Cordi/releases/download/2.3.0/Cordi.zip",
-    "DownloadLinkTesting": "https://github.com/Nyakaze/Cordi/releases/download/test-version-v2/Cordi.zip",
+    "DownloadLinkTesting": "https://github.com/Nyakaze/Cordi/releases/download/test-version-v2.2/Cordi.zip",
     "DownloadLinkUpdate": "https://github.com/Nyakaze/Cordi/releases/download/2.3.0/Cordi.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 58,
     "LastUpdate": "1784452949",
-    "TestingAssemblyVersion": "3.0.0.6",
+    "TestingAssemblyVersion": "3.0.0.8",
     "TestingDalamudApiLevel": 15,
-    "TestingChangelog": "\n### Activity\n - **Added:** Custom presets can be global or tied to a single character.\n - **Added:** Import titles from Honorific, choosing to keep them per character or make them global. -> Activity -> Custom"
+    "TestingChangelog": "\n### Activity\n - **Added:** Custom presets can be global or tied to a single character.\n - **Added:** Import titles from Honorific, choosing to keep them per character or make them global. -> Activity -> Custom\n\n### Emote Log\n - **Fixed:** Custom `/em` emotes aimed at you now show in the Emote Log window and on Discord, without an emote-back button or reaction.\n\n### ChatBox\n - **Added:** Channels can be bound to an ExtraChat channel; its messages land there and messages sent from it go out through ExtraChat. -> ChatBox -> Channels -> ExtraChat\n - **Added:** Each Linkshell and Cross-world Linkshell has its own colour. -> ChatBox -> Appearance -> Chat Colours\n - **Fixed:** Avatar Size now applies to every message instead of only those with jumbo emoji.\n - **Fixed:** The hover toolbar on follow-up messages from the same person was squashed; it keeps its full size now.\n - **Fixed:** Arabic and Hebrew text showed as boxes; letters now render, join up and read right to left.\n - **Fixed:** Images posted in a mapped Discord channel showed as a dead link on Discord and sometimes in game; they are now re-posted as a real attachment before the original is removed.\n - **Added:** Send images from the ChatBox by pasting, dropping a file or using the attach button (can be hidden). Needs the chat to be mapped to a Discord channel. -> ChatBox -> Content -> Images\n - **Added:** A bar under the input shows how much of the message limit is used, counting emote and image links.\n - **Added:** Option to put the cursor in the GIF picker's search bar when it opens. -> ChatBox -> Content -> GIF Picker\n - **Fixed:** Messages between 450 and 480 characters, or made longer by emote links, were cut off instead of split.\n - **Removed:** \"Click Through when unfocused\", which never worked."
   }
 ]
